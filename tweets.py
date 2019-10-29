@@ -21,10 +21,10 @@ from nltk.corpus import stopwords
 import random
 import re
 
-consumer_key = 'iSlPJB5tXFMjv52mhcPnrz2Gw'
-consumer_secret = 'xUuCgmctnbqEX03HBLOkR4ffSnLN48k8pxDl3hixjRWEqLTlj3'
-access_token = '2832840816-ZhGVNVxwBHomCoV2xTeLHpPcG62t6AqlZ8AuHwJ'
-access_token_secret = '3sx5JhqhBbGTRcmeGkjww8sDxybS8WPIa4AktWsW3R1Fa'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
